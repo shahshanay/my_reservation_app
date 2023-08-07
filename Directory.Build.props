@@ -1,0 +1,20 @@
+<Project>
+  <PropertyGroup>
+		<VersionMajor>4</VersionMajor>
+		<VersionMinor>0</VersionMinor>
+		<VersionPatch>0</VersionPatch>
+		<VersionPrefix>$(VersionMajor).$(VersionMinor).$(VersionPatch)</VersionPrefix>
+		<VersionSuffix Condition="'$(Configuration)'=='DEBUG'">develop</VersionSuffix>
+	</PropertyGroup>
+  
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/OpenReservation/ReservationServer</RepositoryUrl>
+    <Authors>WeihanLi</Authors>
+    <Copyright>Copyright 2015-2022 (c) WeihanLi</Copyright>
+    <TargetFramework>net7.0</TargetFramework>
+    <DotNetPackageVersion>7.0.0</DotNetPackageVersion>
+  </PropertyGroup>
+</Project>
