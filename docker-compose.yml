@@ -1,4 +1,4 @@
-version: '2.1'
+version: '2.2'
 services:
   # elasticsearch:
   #   image: elasticsearch:5.6-alpine
